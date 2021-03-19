@@ -39,7 +39,7 @@ nav{
 
 footer{
   width: auto;
-  background-color: #588c7e;
+  background-color: #4F7D6E;
   color: white;
   padding: 20px;
   text-align: center;
@@ -55,8 +55,8 @@ header p{
 }
 
 .location{
-  border-bottom: solid 10px #588c7e;
-  color: #588c7e;
+  border-bottom: solid 10px #4F7D6E;
+  color: #4F7D6E;
 }
 /*END STARTER CSS - DO NO CHANGE*/
 
@@ -64,7 +64,7 @@ header p{
 /*about*/
 .logo{
   font-size: 30px;
-  color: #588c7e;
+  color: #4F7D6E;
   padding: 10px 0px;
   margin: 20px
 }
@@ -77,8 +77,8 @@ nav a{
 
 a:hover {
   /*text-decoration-line: underline;*/
-  border-bottom: solid 10px #588c7e;
-  color: #588c7e;
+  border-bottom: solid 10px #4F7D6E;
+  color: #4F7D6E;
 }
 
 .nav_links{
@@ -208,7 +208,6 @@ header{
 .date h3{
   margin-top: 10px;
   font-size: 16px;
-  color: #588c7e;
   text-align: center;
 }
 .container-stories img{
@@ -256,19 +255,19 @@ header{
   width: 100%;
   height: 100%;
   background-size: cover;
-/*   -webkit-backface-visibility: hidden; Safari */
+  -webkit-backface-visibility: hidden;  /*Safari */
   backface-visibility: hidden;
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #588c7e;
+  background-color: #4F7D6E;
   color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #588c7e;
+  background-color: #4F7D6E;
   color: white;
   transform: rotateY(180deg);
   vertical-align: center;
@@ -472,7 +471,7 @@ input[type=submit]{
   font-family: "Poiret One", sans-serif;
   font-weight: bold;
   font-size: 20px;
-  background-color: #588c7e;
+  background-color: #4F7D6E;
   color: white;
   width: 100%;
   padding: 12px 20px;
