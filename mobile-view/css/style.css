@@ -229,7 +229,7 @@ header{
   object-fit: cover;
   background-color: transparent;
   min-height: 250px;
-  perspective: 1000px; \
+  perspective: 1000px;
 }
 
 /* This container is needed to position the front and back side */
