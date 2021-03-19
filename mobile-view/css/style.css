@@ -98,6 +98,7 @@ a:hover {
   height: 300px;                /* Parallax effect */
   background-image: url(../about/hero.jpeg);
   vertical-align: middle;
+  font-weight: bold;
 }
 #hero h1{
   top:50%;
@@ -227,10 +228,8 @@ header{
   border-radius: 10px;
   object-fit: cover;
   background-color: transparent;
-  width: 100%;
-  height: auto;
-  min-height: 200px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  min-height: 25 0px;
+  perspective: 1000px; \
 }
 
 /* This container is needed to position the front and back side */
@@ -238,7 +237,8 @@ header{
   position: relative;
   border-radius: 10px;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
+  height: auto;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
