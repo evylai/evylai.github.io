@@ -34,11 +34,10 @@ document.querySelector("#skip").addEventListener("click", function(){
 	video.currentTime += 15
 	video.play
 	console.log("New location " + video.currentTime)
-})
-
-document.querySelector('#player1').addEventListener('ended', function () {
-  console.count('Go back to beginning');
-  this.play();
+	video.loop = true
+	if (video.currentTime >= video.duration){
+		console.log("Go back to beginning")
+	}
 })
 
 document.querySelector("#mute").addEventListener("click", function(){
