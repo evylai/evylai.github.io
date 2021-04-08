@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Include code for favicon image, three stylesheets, Google Font, and responsive meta tags. -->
+    <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/starter.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+  </head>
+  <body>
+    <a class = "skip" href="#main">Skip to Main Content</a>
+    <header>
+      <div>
+        <h3 class="logo">TFGHG 5033</h3>
+      </div>
+      <nav>
+        <ul class="nav_links">
+          <li class="nav_item"><a href="index.html">About</a></li>
+          <li class="nav_item"><a href="stories.html">Stories</a></li>
+          <li class="nav_item"><a href="photos.html">Photos</a></li>
+          <li class="nav_item location"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  <div><h1> SHARE YOUR STORY </h1></div>
+  <main id = "main">
+    <div class="contact">
+      <form action="https://formspree.io/f/mqkwkgza" method="POST">
+
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="name" placeholder="Your name..">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+
+        <label for="img">Image</label>
+        <input type="file" id="img" name="img" accept="image/*">
+
+        <label for="say">What to say</label>
+        <textarea id="text" name="say" placeholder="Say something.." style="height:200px"></textarea>
+
+        <input id="submit" type="submit" value="Submit">
+
+      </form>
+    </div>
+
+<!--     <div class="deco">
+      <img src="images/logo.png" alt="logo" id = "logo">
+    </div> -->
+  </main>
+
+    <footer>
+      <p>TFGHG 5033 <br/>
+        &copy; Guan-Ying Lai - Web Design 2021</p>
+    </footer>
+  </body>
+</html>
