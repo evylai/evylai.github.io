@@ -691,4 +691,8 @@ input[type=file]{
     animation: none;
     opacity:1;
   }
+  #hero{
+    animation:none;
+    background-attachment: scroll;
+  }
 }
