@@ -1,0 +1,127 @@
+/*-----------------------------------------------------------------*/
+/*                              TYPEFACE                           */
+/*-----------------------------------------------------------------*/
+
+@font-face{
+    font-family:helveticaneueltstd-bd;
+    src:url(fonts/3562AC_0_0.eot);
+    src:url(fonts/3562AC_0_0.eot?#iefix) format("embedded-opentype"),
+        url(fonts/3562AC_0_0.woff2) format("woff2"),
+        url(fonts/3562AC_0_0.woff) format("woff"),
+        url(fonts/3562AC_0_0.ttf) format("truetype")
+}
+
+@font-face{
+    font-family:helveticaneueltstd-reg;
+    src:url(fonts/3562AC_1_0.eot);
+    src:url(fonts/3562AC_1_0.eot?#iefix) format("embedded-opentype"),
+        url(fonts/3562AC_1_0.woff2) format("woff2"),
+        url(fonts/3562AC_1_0.woff) format("woff"),
+        url(fonts/3562AC_1_0.ttf) format("truetype");
+}
+@font-face{
+    font-family:helveticaneueltstd-blk;
+    src:url(fonts/3562AC_2_0.eot);
+    src:url(fonts/3562AC_2_0.eot?#iefix) format("embedded-opentype"),
+        url(fonts/3562AC_2_0.woff2) format("woff2"),
+        url(fonts/3562AC_2_0.woff) format("woff"), 
+        url(fonts/3562AC_2_0.ttf) format("truetype")
+}
+
+/*-----------------------------------------------------------------*/
+/*                          COLOR  STYLES                          */
+/*-----------------------------------------------------------------*/
+
+.clrSwatch span { width: 100px; height: 100px; display: block; background-color: #FFF; border: 1px solid #000; }
+.clrSwatch p { margin: 3px 0 0; padding: 0; }
+.clrSwatch span.clrSwt-primary { background-color: #109AC7; }
+.clrSwatch span.clrSwt-secondary  { background-color: #C7F1FF; }
+.clrSwatch span.clrSwt-tertiery  { background-color: #ADEBFF; }
+.clrSwatch span.clrSwt-complementaryDark  { background-color: #7A3E00; }
+.clrSwatch span.clrSwt-complementaryLight  { background-color: #C76D10; }
+
+
+.clrSwatch span.clrSwt-primaryText { background-color: #555354; }
+.clrSwatch span.clrSwt-secondaryText { background-color: #888687; }
+.clrSwatch span.clrSwt-primaryButton { background-color: #109AC7; }
+.clrSwatch span.clrSwt-primaryButtonHover { background-color: #13B5EA; }
+.clrSwatch span.clrSwt-background { background-color: #FFFFFF; }
+.clrSwatch span.clrSwt-secondaryBackground { background-color: #F5F5F5;  }
+
+/*-----------------------------------------------------------------*/
+/*                  HEADER/FOOTER  STYLES                          */
+/*-----------------------------------------------------------------*/
+
+.navbar-inverse { background-color: #fff; border-color: #888687; box-shadow: 0 8px 10px rgba(0,0,0,.175); border-radius: 0px; border: none; border-bottom: 2px solid #109AC7; }
+.navbar-brand { font-size: 3rem; }
+.navbar-right { padding: 5px 30px 0 0; }
+.navbar-inverse .navbar-brand { color: #109AC7; }
+.navbar-inverse .navbar-brand:hover { color: #109AC7; }
+footer p { font-size: 1rem; text-align: center; }
+.navbar-inverse .navbar-toggle .icon-bar { background-color: #000; }
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover { background-color: #F5F5F5; }
+
+/*-----------------------------------------------------------------*/
+/*                      STYLEGUIDE STYLES                          */
+/*-----------------------------------------------------------------*/
+
+body { 
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-family: helveticaneueltstd-reg, Arial, sans-serif; 
+}
+h1, h2, h3, h4, h5, h6 { font-family: helveticaneueltstd-bd, Arial, sans-serif; color: #555354; letter-spacing: 0.025em; }
+.lgt { font-family: helveticaneueltstd-reg, Arial, sans-serif; }
+.bld { font-family: helveticaneueltstd-bd, Arial, sans-serif; }
+.blk { font-family: helveticaneueltstd-blk, Arial, sans-serif; }
+
+.primary { background-color: #109AC7; }
+.secondary  { background-color: #C7F1FF; }
+.tertiery  { background-color: #ADEBFF; }
+.btn-primary {  background-color: #109AC7; border-color:#109AC7; }
+.btn-primary:hover { background-color: #13B5EA; border-color: #13B5EA }
+.btn-disable { background-color: #F5F5F5; }
+.a {  color: #109AC7; }
+.a:hover { color: #13B5EA; }
+
+.panel-primary { border-color: #109AC7; }
+.panel-primary>.panel-heading { color: #fff; background-color: #109AC7; }
+.row { margin-bottom: 8px; }
+
+/*-----------------------------------------------------------------*/
+/*                      UI TOOKKIT STYLES                          */
+/*-----------------------------------------------------------------*/
+
+#featured-title { background: #f8f8f8; box-shadow: 0 2px 4px rgba(0,0,0,.1); }
+#featured-title .featured-title-inner-wrap { padding: 52px 0; display: table; overflow: hidden; width: 100%; }
+#featured-title .featured-title-heading { z-index: 1; position: relative; display: inline-block; font-size: 30px; margin: 0; }
+#featured-title .featured-title-heading-wrap { display: table-cell; margin: 0; text-align: left; vertical-align: middle; width: 65%; }
+.content_wrapper { margin-bottom: 15px; }
+.content_wrapper p { margin: 0 0 20px; }
+.section-header { padding-top: 10px; padding-bottom: 30px; }
+.sectionHd { text-align: center; }
+.line-wrapper { position: relative; height: 3px; margin-bottom: 15px; }
+.line-wrapper .ylw-line { height: 3px; width: 60px; background-color: #ffbc13; margin-left: -30px; position: absolute; left: 50%; top: 50%; z-index: 2; }
+.descColDrk { background: #e2e2e2; color: #000; }
+.descColLgt { background: #F5F5F5; color: #000; }
+.descColDrk p, .descColLgt p { margin: auto; padding: 0; }
+#source-button { color: #FFF; background-color: #0062cc; }
+h2 span { font-size: 1.25rem; }
+
+/*-----------------------------------------------------------------*/
+/*                      BREAKPOINTS STYLES                         */
+/*-----------------------------------------------------------------*/
+
+@media (max-width: 991px) {
+    #source-button { top: -10px; left: 0px; }
+    .section-header { padding-top: 30px; padding-bottom: 10px; }    
+}
+@media (max-width: 680px) {
+    .section-header { padding-top: 20px; }    
+    .sectionHd { text-align: left;text-align: left; border-bottom: 3px solid #ffbc13;}
+    .line-wrapper { display: none; }
+}
+@media (max-width: 480px) {
+    .section-header { padding-top: 10px; }    
+}
